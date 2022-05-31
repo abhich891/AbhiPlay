@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: #FEFBE7;
+    background-image: url("music-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+*{
+    margin: 0;
+    padding: 0 ;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+nav{
+    font-family: 'Dancing Script' , cursive;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color :black;
+    color: white;
+    padding-left: 15px;
+}
+
+nav ul li{
+    /* justify-content: space-around ;
+    align-items: center; */
+    padding-left: 30px;
+}
+.av{
+    color: cyan;
+}
+
+.brand img{
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FCDAB7;
+}
+
+.container{
+    min-height: 90vh;
+    width: 100% ;
+    /* background-color:black; */
+    color : white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("music-1.jpg"); 
+    background-size: cover; 
+     background-repeat: no-repeat;
+     background-position: 100%;
+  
+}
+.image-area{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.headi{
+    color: lightslategray;
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black ;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gift{
+    opacity: 0;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons i{
+    cursor : pointer ;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.SongItemContainer{
+    margin-top: 50 px;
+
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color:black;
+    color: white;
+    margin: 20px 0;
+    /* padding-right: 40px; */
+    padding-left : 15px;
+    justify-content: space-between ;
+    align-items: center;
+    border-radius: 20px;
+}
+/* .songName{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.songItem img{
+
+    width: 30px;
+    margin: 0 23 px;
+    border-radius: 34px;
+}
+
+
+.timestamp{
+    margin: 0 30 px;
+}
+ 
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    font-family: 'Dancing Script' , cursive;
+
+}
+.timer{
+    position: absolute;
+    left: 10vw;
+}
+.right{
+    position: absolute;
+    right: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: 0.7s ease-in;
+}

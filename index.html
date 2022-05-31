@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Abhi Play </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="ap.png" alt="AbhiPlay"> </li>
+            <li class="av"> AbhiPlay</li>
+            <li>    Home  </li>
+            <li>   Favorite  </li>
+            <li>  About    </li>        
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h2 class="headi"> Best Arijit Singh Songs and Playlist</h2>
+            <div class="SongItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">
+                        Khamoshiyan
+                    </span>
+                    <span class="songlistplay">
+                        <span class="timestamp"> 
+                            <i id="0" class=" songItemPlay fa-solid fa-circle-play "></i></span>
+                        <img src="songs.gif" width="33px" alt="" class = "gift" id="0"  > 
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">
+                        Mast Magan
+                    </span>
+                    <span class="songlistplay">
+                        <span class="timestamp"><i id="1"
+                                class=" songItemPlay fa-solid fa-circle-play "></i></span>
+                        <img src="songs.gif" width="33px" alt="" class = "gift" id="1"> 
+
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">
+                        Shayad
+                    </span>
+                    <span class="songlistplay">
+                        <span class="timestamp"><i id="2"
+                                class=" songItemPlay fa-solid fa-circle-play "></i></span>
+                        <img src="songs.gif" width="33px" alt="" class = "gift" id="2"> 
+
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">
+                        Tum Saath Ho
+                    </span>
+                    <span class="songlistplay">
+                        <span class="timestamp"><i id="3"
+                                class=" songItemPlay fa-solid fa-circle-play "></i></span>
+                        <img src="songs.gif" width="33px" alt="" class = "gift" id="3" > 
+
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">
+                        Khairiyat
+                    </span>
+                    <span class="songlistplay">
+                        <span class="timestamp"><i id="4"
+                                class=" songItemPlay fa-solid fa-circle-play "></i></span>
+                        <img src="songs.gif" width="33px" alt="" class = "gift" id="4"> 
+
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">
+                        Hawayein
+                    </span>
+                    <span class="songlistplay">
+                        <span class="timestamp"><i id="5"
+                                class=" songItemPlay fa-solid fa-circle-play "></i></span>
+                        <img src="songs.gif" width="33px" alt="" class = "gift" id="5"> 
+
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+           
+            <!-- fontitems -->
+        </div>
+  
+            <div class="timer"id="timer">
+                 00:00 
+            </div>
+            <div class="right" id = "right">
+                 05:35
+            </div>
+            <div class="songInfo">
+                <img src="songs.gif" width="25px" alt="" id="gif"> <span id="masterSongName"> Khamoshiyan </span> - Arijit
+                Singh
+            </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7ab5b7e72a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
